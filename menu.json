@@ -1,0 +1,617 @@
+{
+  "restaurant": "Premium Izakaya",
+  "currency": "CZK",
+  "categories": {
+    "Soup": [
+      {
+        "name": "White Miso",
+        "ingredient": "Wakame, Tofu, Onion, Shitake",
+        "price": 165
+      },
+      {
+        "name": "Miso Sake",
+        "ingredient": "Sake, Onion, Shitake, Chili Oil",
+        "price": 215
+      },
+      {
+        "name": "Asari Dashi",
+        "ingredient": "Light Dashi Broth, Clam, Enoki, Shitake, Spinach",
+        "price": 215
+      }
+    ],
+    "Salad": [
+      {
+        "name": "Sake Avocado Salad",
+        "ingredient": "Seasonal Salad, Avocado, Salmon, Soya Dressing",
+        "price": 365
+      },
+      {
+        "name": "Sumi Salad",
+        "ingredient": "Seasonal Salad, Asparagus, Tomato, Paprika, Enoki, Parsley, Miso Dressing",
+        "price": 315
+      },
+      {
+        "name": "Shrimp Tempura Salad",
+        "ingredient": "Seasonal Salad, Avocado, Tempura Shrimp, Parmesan, Mayo, Yuzu & Truffle Dressing",
+        "price": 395
+      }
+    ],
+    "Tapas": [
+      {
+        "name": "Ebi Tempura",
+        "quantity": "3 pcs",
+        "ingredient": "Fried Shrimp in Tempura, Tsuyu Sauce",
+        "price": 295
+      },
+      {
+        "name": "Calamari Brûlée",
+        "weight": "60g",
+        "ingredient": "Crispy Calamari, Spicy Mayo",
+        "price": 335
+      },
+      {
+        "name": "Yaki Tori",
+        "quantity": "2 skewers",
+        "ingredient": "Chicken Skewers, Onion, Yakiniku Sauce, Sesame",
+        "price": 235
+      },
+      {
+        "name": "Sticky Rice Tuna",
+        "quantity": "3 pcs",
+        "ingredient": "Crispy Rice, Tuna Tartare, Onion, Spicy Mayo",
+        "price": 289
+      },
+      {
+        "name": "Sticky Rice Foie Gras",
+        "quantity": "3 pcs",
+        "ingredient": "Crispy Rice, Foie Gras, Onion, Teriyaki, Chives",
+        "price": 355
+      },
+      {
+        "name": "Nasu Dengaku",
+        "portion": "1/2",
+        "ingredient": "Grilled Eggplant, Chives, Sesame, Caramelised Miso",
+        "price": 265
+      },
+      {
+        "name": "Handmade Gyoza",
+        "quantity": "3 pcs",
+        "ingredient": "Seared Pork Gyoza, Teriyaki Sauce, Chives",
+        "price": 215
+      },
+      {
+        "name": "Snow Crab Tempura",
+        "ingredient": "Snow Crab, Chilli Powder, Wasabi Sauce",
+        "price": 489
+      },
+      {
+        "name": "Octopus Ceviche",
+        "ingredient": "Grilled Octopus, Red Onion, Cherry Tomato, Sweet Paprika, Coriander, Avocado, Yuzu-Sesame Dressing",
+        "price": 459
+      },
+      {
+        "name": "Duck Tataki",
+        "weight": "80g",
+        "ingredient": "Lightly Seared Duck Breast, Yuzu Kosho, Pickled Onion",
+        "price": 385
+      },
+      {
+        "name": "Edamame",
+        "weight": "160g",
+        "ingredient": "Soy Beans, Salt",
+        "price": 185
+      },
+      {
+        "name": "Spicy Edamame",
+        "weight": "160g",
+        "ingredient": "Soy Beans, Spicy Miso Sauce",
+        "price": 215
+      },
+      {
+        "name": "Asparagus Tempura",
+        "ingredient": "Asparagus Tempura, Truffle, Mayo, Grated Truffle",
+        "price": 425
+      },
+      {
+        "name": "Agedashi Tofu Modern",
+        "ingredient": "Crispy Tofu, Parmesan, Salad, Chilli Powder, Miso Dressing",
+        "price": 289
+      },
+      {
+        "name": "Rock Corn",
+        "ingredient": "Corn In Tempura, Tsuyu Sauce, Chives",
+        "price": 285
+      }
+    ],
+    "Nigiri": [
+      { "name": "Sake", "ingredient": "Salmon", "price": 235,"quantity": "2 pcs" },
+      { "name": "Maguro", "ingredient": "Tuna Yellowfin", "price": 265, "quantity": "2 pcs"},
+      { "name": "Kuromaguro", "ingredient": "Bluefin Tuna", "price": 425, "quantity": "2 pcs" },
+      { "name": "Hamachi", "ingredient": "Yellowtail", "price": 265, "quantity": "2 pcs"},
+      { "name": "Wagyu", "ingredient": "Japanese Wagyu", "price": 425, "quantity": "2 pcs"},
+      { "name": "Madai", "ingredient": "Red Sea Bream", "price": 275, "quantity": "2 pcs"},
+      { "name": "Hotate", "ingredient": "Scallops", "price": 295, "quantity": "2 pcs"},
+      { "name": "Botan Ebi", "ingredient": "Sweet Shrimp", "price": 275, "quantity": "2 pcs"},
+      { "name": "Tako", "ingredient": "Octopus", "price": 255, "quantity": "2 pcs"},
+      { "name": "Unagi", "ingredient": "Eel", "price": 265, "quantity": "2 pcs"},
+      { "name": "Ibodai", "ingredient": "Butterfish", "price": 285, "quantity": "2 pcs"}
+    ],
+    "Sashimi": [
+      { "name": "Sake", "ingredient": "Salmon", "price": 235,"quantity": "3 pcs" },
+      { "name": "Maguro", "ingredient": "Tuna Yellowfin", "price": 265, "quantity": "3 pcs"},
+      { "name": "Kuromaguro", "ingredient": "Bluefin Tuna", "price": 425, "quantity": "3 pcs" },
+      { "name": "Hamachi", "ingredient": "Yellowtail", "price": 265, "quantity": "3 pcs"},
+      { "name": "Madai", "ingredient": "Red Sea Bream", "price": 275, "quantity": "3 pcs"},
+      { "name": "Hotate", "ingredient": "Scallops", "price": 295, "quantity": "3 pcs"},
+      { "name": "Botan Ebi", "ingredient": "Sweet Shrimp", "price": 275, "quantity": "3 pcs"},
+      { "name": "Tako", "ingredient": "Octopus", "price": 255, "quantity": "3 pcs"},
+      { "name": "Unagi", "ingredient": "Eel", "price": 265, "quantity": "3 pcs"},
+      { "name": "Ibodai", "ingredient": "Butterfish", "price": 285, "quantity": "3 pcs"}
+    ],
+    "Raw Special": [
+      {
+        "name": "Madai Truffle",
+        "ingredient": "Japanese Sea Bream, Yuzu Truffle Sauce, Truffle Slice",
+        "price": 495
+      },
+      {
+        "name": "Salmon Umami",
+        "ingredient": "Salmon, Ikura, Cucumber, Sesame, Chilli Sauce",
+        "price": 405
+      },
+      {
+        "name": "Wagyu Tataki",
+        "ingredient": "Premium Japanese Wagyu, Potato Chips, Chives, Yuzu Ponzu Sauce",
+        "price": 895
+      },
+            {
+        "name": "Gyu Carpaccio",
+        "ingredient": "Tenderloin US Beef, Pickled Onion, Parmesan, Chives, Yuzu Wasabi Sauce",
+        "price": 425
+      }
+    ],
+      "Handroll": [
+      { "name": "Sake Ikura", "price": "185"},
+      { "name": "Spicy Sake", "price": "185"},
+      { "name": "Spicy Tuna", "price": "195"},
+      { "name": "Blufin", "price": "275"},
+      { "name": "Hotate", "price": "205"}
+    ],
+    "Ura Maki": [
+      {
+        "name": "Unagi",
+        "ingredient": "Smoked Eel, Tamago, Cucumber, Sesame Sweet Sauce",
+        "quanity": "6 pcs",
+        "price": 315
+      },
+      {
+        "name": "Sake Ikura",
+        "ingredient": "Sake Ikura, Cream Cheese, Avocad",
+        "quanity": "6 pcs",
+        "price": 345
+      },
+      {
+        "name": "Karai Maguro",
+        "ingredient": "Spicy Tuna, Spring Onion",
+        "quanity": "6 pcs",
+        "price": 265
+      },
+      {
+        "name": "Karai Sake",
+        "ingredient": "Spicy Salmon, Spring Onion",
+        "quanity": "6 pcs",
+        "price": 255
+      },
+      {
+        "name": "Snow Crab",
+        "ingredient": "Snow Crab Meat, Salad, Avocado, Mayo, Sesame, Tobiko",
+        "quanity": "6 pcs",
+        "price": 375
+      },
+      {
+        "name": "Crunch Ebi",
+        "ingredient": "Ebi Tempura, Avocado, Asparagus Tempura, Bits, Teriyaki Sauce",
+        "quanity": "6 pcs",
+        "price": 275
+      },
+      {
+        "name": "Sake&Maguro",
+        "ingredient": "Salmon, Tuna, Avocado, Sesame, Teriyaki Sauce",
+        "quanity": "6 pcs",
+        "price": 315
+      },
+      {
+        "name": "Kuromaguro",
+        "ingredient": "Blufin, Tuna, Spring Onion, Shiso Marinated Wasabi, Yuzu, Ponzu",
+        "quanity": "6 pcs",
+        "price": 395
+      },
+      {
+        "name": "Hamachi",
+        "ingredient": "Yellowtail, Jalapenos, Avocado, Chives, Yuzu Wasabi Sauce",
+        "quanity": "6 pcs",
+        "price": 325
+      },
+      {
+        "name": "Tobiko",
+        "ingredient": "Salmon, Tobiko, Cream Cheese, Avocado",
+        "quanity": "6 pcs",
+        "price": 285
+      },
+      {
+        "name": "Hotate",
+        "ingredient": "Seared Scallops, Spicy shrimp, Avocado",
+        "quanity": "6 pcs",
+        "price": 365
+      },
+      {
+        "name": "Butterfish&Maguro",
+        "ingredient": "Ibodai, Tuna, Chives, Yuzu Wasabi Dressing",
+        "quanity": "6 pcs",
+        "price": 345
+      }   
+    ],
+    "Aburi Roll, Flamed Roll": [
+      {
+        "name": "S/M Garden",
+        "ingredient": "Salmon, Eel, Tobiko, Asparagus, Avocado, Chives, Snow Mayo & Teriyaki Sauce, Tempura Bits",
+        "quanity": "8 pcs",
+        "price": 465
+      },
+      {
+        "name": "Spicy Snow",
+        "ingredient": "Spicy Rare Salmon, Tobiko, Asparagus, Avocado, Cucumber, Spicy Mayo Snow Sauce & Teriyaki, Tempura Bits",
+        "quanity": "8 pcs",
+        "price": 465
+      },
+      {
+        "name": "Fantasy",
+        "ingredient": "Spicy Tuna, Tobiko, Avocado, Cucumber, Chives, Spicy Mayo, Tempura Bits",
+        "quanity": "8 pcs",
+        "price": 465
+      },
+      {
+        "name": "Doube Ebi",
+        "ingredient": "Tempura Shrimp, Boiled Shrimp, Tobiko, Avocado, Cucumber, Mayo Snow Sauce & Teriyaki Sauce, Tempura Bits",
+        "quanity": "8 pcs",
+        "price": 465
+      }
+    ],
+    "Signature Roll, Flamed Roll": [
+      {
+        "name": "S/M Salmon",
+        "ingredient": "Salmon, Tempura Shrimp, Ikura, Avocado, Cucumber, Chives, Mayo Spicy Snow Sauce & Teriyaki, Tempura Bits",
+        "quanity": "8 pcs",
+        "price": 355
+      },
+      {
+        "name": "S/M Foie Grass",
+        "ingredient": "Eel, Foie Grass, Ikura, Avocado, Cucumber, Chives, Mayo Snow & Teriyaki Sauce, Tempura Bits",
+        "quanity": "8 pcs",
+        "price": 415
+      },
+      {
+        "name": "S/M Snow Crab Meat",
+        "ingredient": "Snow Crab, Ikura, Cucumber, Avocado, Mayo Spicy Snow Sauce & Teriyaki",
+        "quanity": "8 pcs",
+        "price": 439
+      },
+      {
+        "name": "S/M Wagyu",
+        "ingredient": "Flamed Premium Japanese Wagyu, Hotate, Cucumber, Truffle, Avocado, Truffle Mayo",
+        "quanity": "8 pcs",
+        "price": 589
+      }
+    ],
+    "Tempura Roll, Crispy Outside": [
+      {
+        "name": "Geisha",
+        "ingredient": "Salmon, Tempura Shrimp, Ikura, Avocado, Cucumber, Chives, Mayo Spicy Snow Sauce & Teriyaki, Tempura Bits",
+        "quanity": "8 pcs",
+        "price": 429
+      },
+      {
+        "name": "Tono",
+        "ingredient": "Spicy Rare Tuna, Asparagus, Avocado, Spicy Mayo Truffle, Spring Onion, Tempura Bits",
+        "quanity": "8 pcs",
+        "price": 449
+      },
+      {
+        "name": "Hamanishi",
+        "ingredient": "Eel, Boiled Shrimp, Cheese, Asparagus, Avocado, Teriyaki Sauce, Tempura Bits",
+        "quanity": "8 pcs",
+        "price": 429
+      },
+      {
+        "name": "Veggie Tempura",
+        "ingredient": "Asparagus, Avocado, King Oyster Mushroom Teriyaki Sauce, Tempura Bits",
+        "quanity": "8 pcs",
+        "price": 429
+      }
+    ],
+    "Raisubaga, Signature S/M Burger": [
+      {
+        "name": "Sake Raisubaga",
+        "ingredient": "Raw Salmon, Boiled Shrimp, Tobiko, Avocado, Nori Chips, Spicy Mayo Snow Sauce",
+        "price": 569
+      },
+      {
+        "name": "Unagi Raisubaga",
+        "ingredient": "Eel, Cucumber, Avocado, Sesame, Nori Chips, Teriyaki Sauce",
+        "price": 625
+      },
+      {
+        "name": "Gyu Raisubaga (Only Medium)",
+        "ingredient": "Tenderloin US Steak, Foie Grass, Asparagus, Avocado, Nori Chips, Spicy Truffle, Mayo, Tempura Bits",
+        "price": 665
+      },
+      {
+        "name": "Crunch Raisubaga",
+        "ingredient": "Tempura Shrimp, Boiled Shrimp, Avocado, Nori Chips, Spinach, Mayo Snow Sauce & Teriyaki Sauce, Tempura Bits",
+        "price": 599
+      }
+    ],
+    "Main Dishes": [
+      {
+        "name": "Tenderloin US Steak",
+        "weight": "200g",
+        "ingredient": "Beef Tenderloin, Spicy Soya, Sesame, Spring Onion",
+        "price": 835
+      },
+      {
+        "name": "Wagyu Steak",
+        "weight": "150g",
+        "ingredient": "Premium Japanese Wagyu, Marinated Wasabi",
+        "price": 1795
+      },
+      {
+        "name": "Black Cod",
+        "ingredient": "Grilled Black Cod Fish, Marinated With Caramelised Miso",
+        "price": 765
+      },
+      {
+        "name": "Sake Terriyaki",
+        "weight": "220g",
+        "ingredient": "Grilled Salmon, Teriyaki Sauce, Sesame",
+        "price": 485
+      },
+      {
+        "name": "Nabedon Tori",
+        "ingredient": "Japanese Rissoto, King Oyster Mushroom, Chicken Chives, Sweet Soya Sauce",
+        "price": 435
+      },
+      {
+        "name": "Nabedon Unagi Tamago",
+        "ingredient": "Japanese Risotto, King Oyster Mushroom, Unagi Tamago, Spring Onion, Sweet Soya Sauce",
+        "price": 595
+      }
+    ],
+    "Dessert": [
+      { "name": "Matcha Ice Cream", "price": 205 },
+      { "name": "Homemade Matcha Tiramisu", "price": 265 },
+      { "name": "Chocolate Raspberry Mousse", "price": 245 }
+    ],
+    "Side Dishes": [
+      { "name": "Gohan", "price": 115 },
+      { "name": "House Salad", "price": 115 },
+      { "name": "Grilled Cassava Yaki", "price": 165 }
+    ],
+    "Signatures Cocktails": [
+      {
+        "name": "Aperol Umeshu",
+        "ingredient": "A refreshing fusion of Japanese plum and Italian lightness. Bright Citrusy Full of Summer Energy.",
+        "price": 265
+      },
+      {
+        "name": "Hanabira Martini",
+        "ingredient": "A martini with the fragrance of jasmine and floral notes. Delicate Floral Refined.",
+        "price": 295
+      },
+      {
+        "name": "Roku Gin & Tonic",
+        "ingredient": "Botanical harmony with a hint of fresh ginger Pure Refreshing Balanced.",
+        "price": 265
+      },
+      {
+        "name": "Umeshu Negroni",
+        "ingredient": "The meeting of Italian classic and Japanese subtlety. Bittersweet. Deep. Sophisticated.",
+        "price": 325
+      },
+      {
+        "name": "Yugure Highball",
+        "ingredient": "Japanese whisky in harmony with grapefruit and shiso. Deep Elegant Perfectly Balanced.",
+        "price": 355
+      },
+      {
+        "name": "Sake Mojito",
+        "ingredient": "A modern tribute to the classic the lightness of sake and the scent of shiso. Sparkling Fresh With a Touch of Japanese Purity.",
+        "price": 295
+      },
+      {
+        "name": "Virgin Japanese Mojito",
+        "ingredient": "A non-alcoholic version with the fragrance of shiso and lime. Clean Fresh Naturally Elegant.",
+        "price": 225
+      }
+    ],
+    "Non Alcoholic Drinks": [
+      { "name": "Cola", "price": 99 },
+      { "name": "Cola Zero", "price": 99 },
+      { "name": "Cappy Apple", "price": 99 },
+      { "name": "Yuzu Ice Tea", "price": 155 },
+      { "name": "Sencha Hot Tea", "price": 155 },
+      { "name": "Jasmine Hot Tea", "price": 155 },
+      { "name": "Geisha Hot Tea", "price": 155 },
+      { "name": "Ceylon Hot Tea", "price": 155 },
+      { "name": "Filtered Still Water 1L", "price": 99 },
+      { "name": "Filtered Sparkling Water 1L", "price": 99 },
+      { "name": "Aqua Panna 0,25l", "price": 75 },
+      { "name": "Espresso", "price": 89 },
+      { "name": "Americano", "price": 89}
+    ],
+    "Sake - Junmai Daiginjo": [
+      { "name": "Dassai 45 (Yamaguchi)",
+        "description": "Slightly sweet and pure. Best served chilled or at room temperature.",
+        "price": "120ml: 320, 300ml: 690, 720ml: 1590" 
+      },
+      { "name": "Ozeki - Sakura Beauty 45 (Hyogo)",
+        "description": "Light, aromatic, and beautifully balanced. Best served chilled.",
+        "price": "120ml: 320, 720ml: 1590" 
+      },
+      { "name": "Gangi - Yuunagi (Yamaguchi)",
+        "description": "Lightly dry, refined texture. Best served chilled or at room temperature.",
+        "price": "120ml: 320, 720ml: 1590" 
+      },
+      { "name": "Nanbu Bijin (Iwate)",
+        "description": "Elegant sweetness in perfect harmony. Best served chilled.",
+        "price": "720ml: 3790" 
+      }
+    ],
+    "Sake - Junmai Ginjo": [
+      { "name": "Gangi - Mizunowa (Yamaguchi)", 
+        "description": "Clean and refreshing. Best served chilled.",
+        "price": "120ml: 290, 720ml: 1480" 
+      },
+      { "name": "Kozaemon - Tori Label (Gifu)", 
+        "description": "Elegant and light, best served chilled or at room temperature.",
+        "price": "120ml: 290, 720ml: 1480"
+      },
+      { "name": "Gangi - Seasonal Label (Yamaguchi)",
+        "description": "Gentle umami and smooth body. Best served chilled.",
+        "price": "720ml: 2650" 
+      }
+    ],
+    "Sake - Junmai": [
+      { "name": "Nanbu Bijin - Tokubetsu Junmai (Iwate)",
+        "description": "Warm and authentic character. Best served slightly warmed.",
+        "price": "120ml: 290, 300ml: 640, 720ml: 1480"
+      },
+      { "name": "Kozaemon - Sushi Label (Gifu)",
+        "description": "Balanced and smooth. Best served chilled or warm.",
+        "price": "120ml: 320, 720ml: 1590"
+      }
+    ],
+    "Sake - Classic": [
+      { "name": "Ozeki Junmai (Hyogo)",
+        "description": "Comforting and timeliness. Best served warm or at room temperature.",
+        "price": "120ml: 240"
+      }
+    ],
+    "Sake - Party Sake": [
+      {"name": "Party Sake - Recommended for big groups",
+      "description": "Dry, clean, and easy-drinking house sake with a light, smooth finish.",
+      "price": "1,8l: 1690"
+      }
+    ],
+    "Sake - Umeshu": [
+      { "name": "Manjo Sakura Honoka (Japan)",
+      "description": "Fragrant and refreshing. Best served chilled. (Seasonal)",
+       "price": "120ml: 310, 500ml: 1190"
+      }, 
+      { "name": "Aqua Panna 0,25l", "price": 75 },
+      { "name": "Espresso", "price": 89 },
+      { "name": "Americano", "price": 89}
+    ],
+    "Japanese Whisky & Rum": [
+      {"name": "Hibiki Japanese Harmony - Master's Select",
+      "description": "Elegant blend with notes of honey, plum, and sandalwood. 43% alc.",
+      "price": "40ml: 320"
+      },
+      {"name": "Nikka From The Barrel",
+      "description": "Rich, intense, and full-bodied - a bold expression of Japanese craftsmanship. 51-4% alc.",
+      "price": "40ml: 250"
+      },
+      {"name": "The Kurayoshi Pure Malt 8 Years",
+      "description": "Delicate and smooth, aged 8 years in aok casks. Vanilla, almond, and dried fruits. 40% alc.",
+      "price": "40ml: 325"
+      },
+      {"name": "Suntory World Whisky AO",
+      "description": "A blend of five world whiskies - Japanese, Scotch, Irish, American and Canadian. Complex and harmonious. 43% alc.",
+      "price": "40ml: 275"
+      },
+      {"name": "Nikka Gold & Gold - Samurai Edition",
+      "description": "Iconic bottle symbolizing strength and tradition. Smooth oak tones with gentle spice. 43% alc.",
+      "price": "40ml: 475"
+      },
+      {"name": "Ryoma Rhum Japonais",
+      "description": "Japanese rum made from native sugarcane, aged in oak barrels. Soft, aromatic, lightly sweet. 40% alc.",
+      "price": "40ml: 290"
+      },
+      {"name": "Roku Gin",
+      "description": "The Japanese Craft Gin, infused with six Japanese Botanicals - sakura flower, yuzu, sencha, gyokuro, sansho pepper. Elegant, aromatic, and perfectly balanced. 43% vol.",
+      "price": "40ml: 135"
+      },
+      {"name": "Haku Vodka",
+      "description": "The Japanese Craft Vodka, distilled from 100% Japanese rice and filtered through bamboo charcoal. 40% vol.",
+      "price": "40ml: 185"
+      }
+    ],
+      "Prosecco, Cremant & Champagne": [
+      {"name": "Bortolin Angelo - Valdobbiadene DOCG Extra Dry (Italy)",
+       "description": "Delicate bubbles - pear, white peach. Perfect with salads and light tapas.",
+       "price": "Glass: 229, Bottle: 1090"
+      },
+      {"name": "Carpene Malvolti - Processco di Conegliano DOCE Brut (Italy)",
+      "description": "Fresh, lively - citrus and almond finish. Ideal as an aperitif or with tempura tapas.",
+      "price": "Glass: 219, Bottle: 1050"
+      },
+      {"name": "Henri Champliau - Cremant de Bourgogne Brut (France)",
+      "description": "Refined and elegant - green apple, white peach, light brioche. Beautiful with tempura, Sashimi, delicate Japanese Starters.",
+      "price": "Bottle: 1290"
+      },
+      {"name": "Champagne Devaux - Cuvee D (France)",
+      "description": "Elegant and refined - citrus, white flowers, light brioche. Perfect with tempura, sashimi, delicate Japanese starters.",
+      "price": "Bottle: 2190"
+      }
+    ],
+      "White Wines": [
+      {"name": "Franz Haas - Pinot Grigio 2024 (Italy)",
+      "description": "Light and aromatic - pear, white flowers. Ideal with salads, tempura tapas and traditional sushi.",
+      "price": "Glass: 245, Bottle: 1125"
+      },
+      {"name": "Urban Riesling - Nik Weis, Mosel (Germany)",
+      "description": "Crisp and aromatic Riesling - lime, peach, delicate minerality. Perfect with tempura, white fish, or fresh sashimi.",
+      "price": "Glass: 195, Bottle: 875"
+      },
+      {"name": "Chablis 2023 - Roland Lavantureux (France)", 
+      "description": "Crisp Chardonnay - green apple, lemon zest. Perfect with raw specials and fish carpaccio.",
+      "price": "Glass: 285, Bottle: 1325"
+      },
+      {"name": "Ca dei Frati - I Frati Lugana DOC 2024 (Italy)",
+      "description": "Gentle and fresh - pear, citrus. Pairs with Salads, raw fish, and traditional sushi.",
+      "price": "Bottle: 1490"
+      },
+      {"name": "Five Stones - D vs G 2023 (Israel, Kosher)",
+      "description": "Balanced and smooth - foral and fruity notes. Great with tapas, foie gras crispy rice and aburi roll.",
+      "price": "Bottle: 1680"
+      }
+    ],
+      "Rose Wine": [
+      {"name": "Ultimate Provence - Rose 2023 (France)",
+      "description": "Dry, fresh, elegant - petals of rose. Perfect with tapas, duck tataki and aburi roll.",
+      "price": "Glass: 285, Bottle: 1325"
+      }
+    ],
+      "Red Wines": [
+      {"name": "Domaine Jean-Jacques Girad - Bourgogne Pinot Noir 2023 (France)",
+      "description": "Gentle and silky - red fruit, violet. Lovely with foie gras toast, tempura and traditional sushi.",
+      "price": "Glass: 265, Bottle: 1225"
+      },
+      {"name": "Gamla - Cabernet Sauvignon 2021 (Isrel, Kosher)",
+      "description": "Balanced and full - dark fruit, herbs. Ideal with Wagyu grill and warm main dishes.",
+      "price": "Glass: 245, Bottle: 1125"
+      },
+      {"name": "G.D. Vajra - Langhe Nebbiolo 2023 (Italy)",
+      "description": "Elegant and aromatic - cherry, rose, spice. Beautiful with raw specials and beef carpaccio.",
+      "price": "Glass: 265, Bottle: 1225"
+      },
+      {"name": "Chakana - Paraje Altamira Malbec 2020 (Argentina)",
+      "description": "Smooth and deep - blackberry, subtle oak. Excellent with warm tapas, black cod miso and duck.",
+      "price": "Bottle: 1650"
+      },
+      {"name": "San Marzano - Primitivo di Manduria 2019 (Italy)",
+      "description": "Full and velvety - plum, cocoa. Perfect with wagyu grill, foie gras and aburi roll.",
+      "price": "Bottle: 1690"
+      }
+    ]  
+  }
+}
